@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db562ac6706f7c7449cb5028281e4b90, type: 3}
+  m_Name: layer
+  m_EditorClassIdentifier: 
+  id: 0
+  layer_flying:
+    serializedVersion: 2
+    m_Bits: 64
+  layer_entity:
+    serializedVersion: 2
+    m_Bits: 128
+  layer_wall:
+    serializedVersion: 2
+    m_Bits: 512
+  layer_weapon:
+    serializedVersion: 2
+    m_Bits: 256
+  layer_ring:
+    serializedVersion: 2
+    m_Bits: 1024
+  layer_all:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  layer_default:
+    serializedVersion: 2
+    m_Bits: 1
